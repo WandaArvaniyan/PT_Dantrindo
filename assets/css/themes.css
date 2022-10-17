@@ -202,52 +202,84 @@ div{
 }
 
 .top_footer{
-    height: 200px;
+    height: 100px;
     background-color: #00a13a;
     color: white;
     z-index: 1;
     align-items: center;
-    padding: 10px 10px;
+    padding: 15px 15px;
     padding-left: 100px;
     padding-right: 100px;
+    display: block;
 }
 .row{
     display: flex;
+    flex-basis: 75%;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px;    
+    margin-left: -15px;   
+}
+.box2{
+    padding-top: 0.5rem!important;
 }
 .form-inline{
     display: flex;
     flex-flow: row;
     align-items: center;
+    color: white;
 }
-.col-mmd-22{
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 36.66666666667%;
-    max-width: 36.66666666667%;
+.form-control{
+    /* display: block; */
+    /* width: 100%; */
+    /* padding: 0.375rem 0.75rem; */
+    line-height: 0;
+    background-color: transparent;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.col-md-38{
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 63.3333333333%;
-    max-width: 63.3333333333%;
+.border-start-0{
+    border-left: 0!important;
+}
+.border-bottom-0{
+    border-bottom: 0!important;
+}
+.border-end-0{
+    border-right: 0!important;
+}
+.border-top-0{
+    border-top: 0!important;
+}
+.mx-1{
+    margin-right: 0.25rem!important;
+    margin-left: 0.25rem!important;
+}
+.border-bottom{
+    border-bottom: 1px solid #dee2e6!important;
+}
+.my-2{
+    margin-top: 0.5rem!important;
+    margin-bottom: 0.5rem!important;
+}
+div{
+    display: block;
 }
 
 .mid_footer{
     height: 100px;
     background-color: #ebc566;
     color: white;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     z-index: 1;
-    padding: 14px 30px;
+    /* padding: 14px 30px; */
     padding-left: 100px;
     padding-right: 100px;
-    display: flex;
+    display: block;
 }
+
 .btm_footer{
     height: 81px;
     background-color: white;
