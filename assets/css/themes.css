@@ -5,6 +5,10 @@ html, body{
     background-color:#00a13a;
     height: 7px;
 }
+.container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .banner{
     background: url("../img/layer.png");
     background-repeat: no-repeat;
@@ -16,6 +20,8 @@ html, body{
 }
 .banner-text{
     text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .banner-text h2{
     font-weight: 550;
@@ -84,8 +90,11 @@ html, body{
 .section1{
     text-align: center;
 }
+.sec1-text{
+    
+}
 .bold-title{
-    font-size: 45px;
+    font-size: 35px;
     margin-top: -15px;
 }
 .bold-sub{
@@ -108,8 +117,10 @@ div{
     display: block;
 }
 .sec1-text{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
+    padding-left: 145px;
+    padding-right: 145px;
 }
 .sup{
     position: center;
@@ -119,22 +130,22 @@ div{
     /* text-align: center; */
 }
 .pict{
-    height: 250px;
+    height: 200px;
     display: flex;
 }
 .pict-text{
     text-align: left;
-    width: 200px;
+    width: 210px;
 }
 .title{
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
 }
 .sub{
     text-align: left;
-    font-size: 14px;
-    width: 250px;
+    font-size: 12px;
+    width: 200px;
 }
 
 .banner2{
@@ -208,8 +219,8 @@ div{
     z-index: 1;
     align-items: center;
     padding: 15px 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: block;
 }
 .row{
@@ -275,8 +286,8 @@ div{
     width: 100%;
     z-index: 1;
     /* padding: 14px 30px; */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: block;
 }
 
@@ -287,8 +298,8 @@ div{
     z-index: 1;
     align-items: center;
     padding: 14px 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     justify-content: space-between;
     display: flex;
 }
