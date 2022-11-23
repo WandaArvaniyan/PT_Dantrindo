@@ -45,25 +45,27 @@ html, body{
 }
 
 .brand{
-    height: 60px;
-    width: 60px;
-    margin-top: -3px;
+    height: 70px;
+    width: 70px;
+    margin-top: -7px;
 }
 .navbar-brand{
     display: flex;
     align-items: center;
+    /* position: fixed; */
 }
 .brand-text{
     margin-left: 17px;
 }
 .brand-text h1{    
     font-weight: bold;
-    font-size: 27px;
-    margin-top: 6px;
+    font-size: 30px;
+    margin-top: 4px;
 }
 .brand-text p {
-    margin-top: -15px;
-    font-size: 13px;
+    margin-top: -10px;
+    font-weight: lighter;
+    font-size: 14px;
     font-weight: 600;
 }
 .button-contact{
@@ -85,6 +87,18 @@ html, body{
 }
 .button-contact:active {
     opacity: .5;
+}
+.nav-item:hover{
+    display: inline-block;
+    border-radius: 20px;
+    /* font-weight: bold; */
+    /* line-height: normal; */
+    text-align: center;
+    text-decoration: none;
+    background-color: #00a13a;
+    /* border: .125em solid #00a13a; */
+    color: #fff;
+    transition: background .10s, color .10s, border-color .4s;
 }
 
 .section1{
